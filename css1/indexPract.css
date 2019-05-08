@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin: 0;
+}
+html{
+	font-size:20px;
+	font-weight: 400;
+	color: #555; 
+	background-color: #fff;
+    font-family:'ZCOOL XiaoWei',serif; 
+    text-rendering: optimizeLegibility;
+}
+header{
+  background-image: url('/DAYYYY/16-16-16/mogo/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.raw{
+	width: 1140px;
+	margin-bottom: 0 auto;
+}
+.heading{
+	top: 50%;
+	left: 50%;
+	width: 1140px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+.logo{
+	width: auto;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+.main-nav li{
+  display: inline-block;
+}
+.main-nav li a{
+	text-decoration: none;
+	font-size: 90%;
+	padding: 8px 0px;
+	color: #555;
+}
